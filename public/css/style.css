@@ -1,0 +1,39 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #00ffea;
+}
+h1 {
+	text-align: center;
+}
+a {
+	color: #5900ff;
+}
+
+ul {
+    display: flex;
+    padding: 2px;
+}
+li {
+    flex: 1;
+    text-align: center;
+    border: 1px;
+    background-color: cornsilk;
+    display: inline;
+    padding: 10px;
+    border-style: double;
+}
+li:hover {
+    background-color: gray;
+	color:blue;
+	border-style: dashed;
+}
+li > a {
+	font-size: large;
+    color: #000;
+    text-decoration: none;
+}
+img {
+    height: 400px;
+    width: 600px;
+}
